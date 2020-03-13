@@ -9,8 +9,8 @@ services:
     command:
         - '--config.file=/etc/prometheus/prometheus.yml'
     restart: unless-stopped
-    #ports:
-    #    - '127.0.0.1:9090:9090'
+    ports:
+        - '127.0.0.1:9090:9090'
   grafana:
     image: grafana/grafana
     environment:
@@ -23,6 +23,15 @@ services:
     restart: unless-stopped
     ports:
       - "127.0.0.1:3000:3000"
+  www_table:
+    image: python:3.7-slim-buster
+    command: "python3 /scrape_prometheus.py"
+    volumes:
+      - ./hosts.json:/hosts.json
+      - "./scrape_prometheus.py:/scrape_prometheus.py"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
 
 volumes:
   prometheus_data: {}

@@ -1,11 +1,20 @@
 [
   {
     "labels": {
-      "job": "node"
+      "job": "node",
+      "jitsi_url": "https://befair1.iorestoacasa.work",
+      "jitsi_hosted_by": "beFair",
+      "jitsi_hosted_by_url": "https://befair.it"
     },
-    "targets": [
-      "befair1.iorestoacasa.work:8081",
-      "befair2.iorestoacasa.work:8081"
-    ]
+    "targets": ["befair1.iorestoacasa.work:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://befair2.iorestoacasa.work",
+      "jitsi_hosted_by": "beFair",
+      "jitsi_hosted_by_url": "https://befair.it"
+    },
+    "targets": ["befair2.iorestoacasa.work:8081"]
   }
 ]
