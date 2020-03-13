@@ -1,0 +1,11 @@
+[
+  {
+    "labels": {
+      "job": "node"
+    },
+    "targets": [
+      "befair1.iorestoacasa.work:8081",
+      "befair2.iorestoacasa.work:8081"
+    ]
+  }
+]

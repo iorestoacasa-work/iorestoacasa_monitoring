@@ -1,0 +1,29 @@
+version: '3'
+services:
+  prometheus:
+    image: prom/prometheus
+    volumes:
+        - ./prometheus.yml:/etc/prometheus/prometheus.yml
+        - ./targets.json:/etc/prometheus/targets.json
+        - prometheus_data:/prometheus
+    command:
+        - '--config.file=/etc/prometheus/prometheus.yml'
+    restart: unless-stopped
+    #ports:
+    #    - '127.0.0.1:9090:9090'
+  grafana:
+    image: grafana/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning/:/etc/grafana/provisioning/
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+
+volumes:
+  prometheus_data: {}
+  grafana_data: {}
