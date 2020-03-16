@@ -25,5 +25,14 @@
       "jitsi_hosted_by_url": "https://www.seeweb.it"
     },
     "targets": ["seeweb1.iorestoacasa.work:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.unicorni.team/",
+      "jitsi_hosted_by": "🦄",
+      "jitsi_hosted_by_url": "https://unicorni.team/"
+    },
+    "targets": ["jitsi.unicorni.team:8081"]
   }
 ]
