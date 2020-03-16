@@ -16,5 +16,14 @@
       "jitsi_hosted_by_url": "https://befair.it"
     },
     "targets": ["befair2.iorestoacasa.work:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://seeweb1.iorestoacasa.work",
+      "jitsi_hosted_by": "Seeweb",
+      "jitsi_hosted_by_url": "https://www.seeweb.it"
+    },
+    "targets": ["seeweb1.iorestoacasa.work:8081"]
   }
 ]
