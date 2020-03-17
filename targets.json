@@ -34,5 +34,14 @@
       "jitsi_hosted_by_url": "https://unicorni.team/"
     },
     "targets": ["jitsi.unicorni.team:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://webmeeting.opensolution.it/",
+      "jitsi_hosted_by": "Open Solution Srl",
+      "jitsi_hosted_by_url": "https://www.opensolution.it/"
+    },
+    "targets": ["webmeeting.opensolution.it:8081"]
   }
 ]
