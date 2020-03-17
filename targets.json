@@ -43,5 +43,23 @@
       "jitsi_hosted_by_url": "https://www.opensolution.it/"
     },
     "targets": ["webmeeting.opensolution.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.linux.it",
+      "jitsi_hosted_by": "ILS",
+      "jitsi_hosted_by_url": "https://www.ils.org/"
+    },
+    "targets": ["jitsi.linux.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi2.linux.it",
+      "jitsi_hosted_by": "ILS",
+      "jitsi_hosted_by_url": "https://www.ils.org/"
+    },
+    "targets": ["jitsi2.linux.it:8081"]
   }
 ]
