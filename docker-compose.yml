@@ -26,6 +26,7 @@ services:
   www_table:
     image: python:3.7-slim-buster
     command: "python3 /scrape_prometheus.py"
+    stop_signal: SIGKILL
     volumes:
       - ./hosts.json:/hosts.json
       - "./scrape_prometheus.py:/scrape_prometheus.py"
