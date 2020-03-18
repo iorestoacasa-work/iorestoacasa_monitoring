@@ -70,5 +70,14 @@
       "jitsi_hosted_by_url": "https://www.linkedin.com/in/davidefoschi/"
     },
     "targets": ["jitsi.argaar.net:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://talk.win-tek.eu",
+      "jitsi_hosted_by": "Win-Tek",
+      "jitsi_hosted_by_url": "https://win-tek.eu"
+    },
+    "targets": ["talk.win-tek.eu:54110"]
   }
 ]
