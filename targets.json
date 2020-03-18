@@ -61,5 +61,14 @@
       "jitsi_hosted_by_url": "https://www.ils.org/"
     },
     "targets": ["jitsi2.linux.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.argaar.net",
+      "jitsi_hosted_by": "Davide \"argaar\" Foschi",
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/davidefoschi/"
+    },
+    "targets": ["jitsi.argaar.net:8081"]
   }
 ]
