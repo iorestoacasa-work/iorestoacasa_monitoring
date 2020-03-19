@@ -88,5 +88,14 @@
       "jitsi_hosted_by_url": "https://www.linkedin.com/in/andreacervesato/"
     },
     "targets": ["koma.iorestoacasa.work:18080"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://open.meet.garr.it/",
+      "jitsi_hosted_by": "rete GARR",
+      "jitsi_hosted_by_url": "https://www.garr.it/"
+    },
+    "targets": ["open.meet.garr.it:8081"]
   }
 ]

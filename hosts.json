@@ -1,16 +1,82 @@
 [
   {
-    "name": "befair1.iorestoacasa.work",
-    "user_count": "0",
-    "by": "beFair",
-    "by_url": "https://befair.it",
-    "url": "https://befair1.iorestoacasa.work"
+    "name": "koma.iorestoacasa.work",
+    "user_count": 0,
+    "by": "Andrea \"Koma\" Cervesato",
+    "by_url": "https://www.linkedin.com/in/andreacervesato/",
+    "url": "https://koma.iorestoacasa.work",
+    "cpu_usage": 0.05
+  },
+  {
+    "name": "jitsi.unicorni.team",
+    "user_count": 0,
+    "by": "\ud83e\udd84",
+    "by_url": "https://unicorni.team/",
+    "url": "https://jitsi.unicorni.team/",
+    "cpu_usage": 0.0
+  },
+  {
+    "name": "webmeeting.opensolution.it",
+    "user_count": 0,
+    "by": "Open Solution Srl",
+    "by_url": "https://www.opensolution.it/",
+    "url": "https://webmeeting.opensolution.it/",
+    "cpu_usage": 0.02
+  },
+  {
+    "name": "jitsi.linux.it",
+    "user_count": 17,
+    "by": "ILS",
+    "by_url": "https://www.ils.org/",
+    "url": "https://jitsi.linux.it",
+    "cpu_usage": 0.67
   },
   {
     "name": "befair2.iorestoacasa.work",
-    "user_count": "0",
+    "user_count": 0,
     "by": "beFair",
     "by_url": "https://befair.it",
-    "url": "https://befair2.iorestoacasa.work"
+    "url": "https://befair2.iorestoacasa.work",
+    "cpu_usage": 0.01
+  },
+  {
+    "name": "open.meet.garr.it",
+    "user_count": 0,
+    "by": "rete GARR",
+    "by_url": "https://www.garr.it/",
+    "url": "https://open.meet.garr.it/",
+    "cpu_usage": 0.01
+  },
+  {
+    "name": "befair1.iorestoacasa.work",
+    "user_count": 0,
+    "by": "beFair",
+    "by_url": "https://befair.it",
+    "url": "https://befair1.iorestoacasa.work",
+    "cpu_usage": 0.01
+  },
+  {
+    "name": "talk.win-tek.eu",
+    "user_count": 0,
+    "by": "Win-Tek",
+    "by_url": "https://win-tek.eu",
+    "url": "https://talk.win-tek.eu",
+    "cpu_usage": 0.0
+  },
+  {
+    "name": "seeweb1.iorestoacasa.work",
+    "user_count": 2,
+    "by": "Seeweb",
+    "by_url": "https://www.seeweb.it",
+    "url": "https://seeweb1.iorestoacasa.work",
+    "cpu_usage": 0.01
+  },
+  {
+    "name": "jitsi.argaar.net",
+    "user_count": 0,
+    "by": "Davide \"argaar\" Foschi",
+    "by_url": "https://www.linkedin.com/in/davidefoschi/",
+    "url": "https://jitsi.argaar.net",
+    "cpu_usage": 0.0
   }
 ]
