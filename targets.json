@@ -84,8 +84,8 @@
     "labels": {
       "job": "node",
       "jitsi_url": "https://koma.iorestoacasa.work",
-      "jitsi_hosted_by": "Koma e Pinguina",
-      "jitsi_hosted_by_url": "#"
+      "jitsi_hosted_by": "Andrea \"Koma\" Cervesato",
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/andreacervesato/"
     },
     "targets": ["koma.iorestoacasa.work:18080"]
   }
