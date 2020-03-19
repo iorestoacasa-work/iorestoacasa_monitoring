@@ -79,5 +79,14 @@
       "jitsi_hosted_by_url": "https://win-tek.eu"
     },
     "targets": ["talk.win-tek.eu:54110"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://koma.iorestoacasa.work",
+      "jitsi_hosted_by": "Koma e Pinguina",
+      "jitsi_hosted_by_url": "#"
+    },
+    "targets": ["koma.iorestoacasa.work:18080"]
   }
 ]
