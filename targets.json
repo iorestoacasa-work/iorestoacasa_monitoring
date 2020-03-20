@@ -106,5 +106,14 @@
       "jitsi_hosted_by_url": "https://www.augiero.it/"
     },
     "targets": ["ospf-it.iorestoacasa.work:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://conference.ready-web.it/",
+      "jitsi_hosted_by": "Ready Software",
+      "jitsi_hosted_by_url": "https://software.ready-web.it/"
+    },
+    "targets": ["conference.ready-web.it:8081"]
   }
 ]
