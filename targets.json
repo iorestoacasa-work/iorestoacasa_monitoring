@@ -101,11 +101,11 @@
   {
     "labels": {
       "job": "node",
-      "jitsi_url": "https://ospf-it.iorestoacasa.work/",
+      "jitsi_url": "https://jitsi.ospf.it/",
       "jitsi_hosted_by": "Giuseppe Augiero",
       "jitsi_hosted_by_url": "https://www.augiero.it/"
     },
-    "targets": ["ospf-it.iorestoacasa.work:8081"]
+    "targets": ["jitsi.ospf.it:8081"]
   },
   {
     "labels": {

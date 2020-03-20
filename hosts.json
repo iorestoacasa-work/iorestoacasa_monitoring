@@ -1,35 +1,11 @@
 [
   {
-    "name": "koma.iorestoacasa.work",
+    "name": "befair1.iorestoacasa.work",
     "user_count": 0,
-    "by": "Andrea \"Koma\" Cervesato",
-    "by_url": "https://www.linkedin.com/in/andreacervesato/",
-    "url": "https://koma.iorestoacasa.work",
-    "cpu_usage": 0.05
-  },
-  {
-    "name": "jitsi.unicorni.team",
-    "user_count": 0,
-    "by": "\ud83e\udd84",
-    "by_url": "https://unicorni.team/",
-    "url": "https://jitsi.unicorni.team/",
-    "cpu_usage": 0.0
-  },
-  {
-    "name": "webmeeting.opensolution.it",
-    "user_count": 0,
-    "by": "Open Solution Srl",
-    "by_url": "https://www.opensolution.it/",
-    "url": "https://webmeeting.opensolution.it/",
-    "cpu_usage": 0.02
-  },
-  {
-    "name": "jitsi.linux.it",
-    "user_count": 17,
-    "by": "ILS",
-    "by_url": "https://www.ils.org/",
-    "url": "https://jitsi.linux.it",
-    "cpu_usage": 0.67
+    "by": "beFair",
+    "by_url": "https://befair.it",
+    "url": "https://befair1.iorestoacasa.work",
+    "cpu_usage": 0.01
   },
   {
     "name": "befair2.iorestoacasa.work",
@@ -40,20 +16,76 @@
     "cpu_usage": 0.01
   },
   {
-    "name": "open.meet.garr.it",
+    "name": "conference.ready-web.it",
     "user_count": 0,
-    "by": "rete GARR",
-    "by_url": "https://www.garr.it/",
-    "url": "https://open.meet.garr.it/",
+    "by": "Ready Software",
+    "by_url": "https://software.ready-web.it/",
+    "url": "https://conference.ready-web.it/",
+    "cpu_usage": 0.02
+  },
+  {
+    "name": "iorestoacasa.imaa.cnr.it",
+    "user_count": 0,
+    "by": "Consiglio Nazionale delle Ricerche - IMAA",
+    "by_url": "https://www.imaa.cnr.it",
+    "url": "https://iorestoacasa.imaa.cnr.it/",
+    "cpu_usage": 0.0
+  },
+  {
+    "name": "jitsi.argaar.net",
+    "user_count": 0,
+    "by": "Davide \"argaar\" Foschi",
+    "by_url": "https://www.linkedin.com/in/davidefoschi/",
+    "url": "https://jitsi.argaar.net",
+    "cpu_usage": 0.0
+  },
+  {
+    "name": "jitsi.linux.it",
+    "user_count": 0,
+    "by": "ILS",
+    "by_url": "https://www.ils.org/",
+    "url": "https://jitsi.linux.it",
     "cpu_usage": 0.01
   },
   {
-    "name": "befair1.iorestoacasa.work",
+    "name": "jitsi.ospf.it",
     "user_count": 0,
-    "by": "beFair",
-    "by_url": "https://befair.it",
-    "url": "https://befair1.iorestoacasa.work",
-    "cpu_usage": 0.01
+    "by": "Giuseppe Augiero",
+    "by_url": "https://www.augiero.it/",
+    "url": "https://jitsi.ospf.it/",
+    "cpu_usage": 0.02
+  },
+  {
+    "name": "jitsi.unicorni.team",
+    "user_count": 0,
+    "by": "\ud83e\udd84",
+    "by_url": "https://unicorni.team/",
+    "url": "https://jitsi.unicorni.team/",
+    "cpu_usage": 0.0
+  },
+  {
+    "name": "koma.iorestoacasa.work",
+    "user_count": 0,
+    "by": "Andrea \"Koma\" Cervesato",
+    "by_url": "https://www.linkedin.com/in/andreacervesato/",
+    "url": "https://koma.iorestoacasa.work",
+    "cpu_usage": 0.36
+  },
+  {
+    "name": "open.meet.garr.it",
+    "user_count": 2,
+    "by": "rete GARR",
+    "by_url": "https://www.garr.it/",
+    "url": "https://open.meet.garr.it/",
+    "cpu_usage": 0.06
+  },
+  {
+    "name": "seeweb1.iorestoacasa.work",
+    "user_count": 15,
+    "by": "Seeweb",
+    "by_url": "https://www.seeweb.it",
+    "url": "https://seeweb1.iorestoacasa.work",
+    "cpu_usage": 0.17
   },
   {
     "name": "talk.win-tek.eu",
@@ -64,19 +96,11 @@
     "cpu_usage": 0.0
   },
   {
-    "name": "seeweb1.iorestoacasa.work",
-    "user_count": 2,
-    "by": "Seeweb",
-    "by_url": "https://www.seeweb.it",
-    "url": "https://seeweb1.iorestoacasa.work",
-    "cpu_usage": 0.01
-  },
-  {
-    "name": "jitsi.argaar.net",
+    "name": "webmeeting.opensolution.it",
     "user_count": 0,
-    "by": "Davide \"argaar\" Foschi",
-    "by_url": "https://www.linkedin.com/in/davidefoschi/",
-    "url": "https://jitsi.argaar.net",
-    "cpu_usage": 0.0
+    "by": "Open Solution Srl",
+    "by_url": "https://www.opensolution.it/",
+    "url": "https://webmeeting.opensolution.it/",
+    "cpu_usage": 0.02
   }
 ]
