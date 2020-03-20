@@ -97,5 +97,14 @@
       "jitsi_hosted_by_url": "https://www.garr.it/"
     },
     "targets": ["open.meet.garr.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://ospf-it.iorestoacasa.work/",
+      "jitsi_hosted_by": "Giuseppe Augiero",
+      "jitsi_hosted_by_url": "https://www.augiero.it/"
+    },
+    "targets": ["ospf-it.iorestoacasa.work:8081"]
   }
 ]
