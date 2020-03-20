@@ -124,5 +124,23 @@
       "jitsi_hosted_by_url": "https://www.imaa.cnr.it"
     },
     "targets": ["iorestoacasa.imaa.cnr.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://wc.anux.it",
+      "jitsi_hosted_by": "Pawel 'okno' Zorzan Urban - IFInet s.r.l.",
+      "jitsi_hosted_by_url": "https://www.ifinet.it"
+    },
+    "targets": ["wc.anux.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.minucci.net",
+      "jitsi_hosted_by": "Carlo (Gecco) Minucci",
+      "jitsi_hosted_by_url": "https://minucci.net"
+    },
+    "targets": ["jitsi.minucci.net:8081"]
   }
 ]
