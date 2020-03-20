@@ -115,5 +115,14 @@
       "jitsi_hosted_by_url": "https://software.ready-web.it/"
     },
     "targets": ["conference.ready-web.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://iorestoacasa.imaa.cnr.it/",
+      "jitsi_hosted_by": "Consiglio Nazionale delle Ricerche - IMAA",
+      "jitsi_hosted_by_url": "https://www.imaa.cnr.it"
+    },
+    "targets": ["iorestoacasa.imaa.cnr.it:8081"]
   }
 ]
