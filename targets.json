@@ -4,7 +4,8 @@
       "job": "node",
       "jitsi_url": "https://befair1.iorestoacasa.work",
       "jitsi_hosted_by": "beFair",
-      "jitsi_hosted_by_url": "https://befair.it"
+      "jitsi_hosted_by_url": "https://befair.it",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["befair1.iorestoacasa.work:8081"]
   },
@@ -13,7 +14,8 @@
       "job": "node",
       "jitsi_url": "https://befair2.iorestoacasa.work",
       "jitsi_hosted_by": "beFair",
-      "jitsi_hosted_by_url": "https://befair.it"
+      "jitsi_hosted_by_url": "https://befair.it",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["befair2.iorestoacasa.work:8081"]
   },
@@ -22,7 +24,8 @@
       "job": "node",
       "jitsi_url": "https://seeweb1.iorestoacasa.work",
       "jitsi_hosted_by": "Seeweb",
-      "jitsi_hosted_by_url": "https://www.seeweb.it"
+      "jitsi_hosted_by_url": "https://www.seeweb.it",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["seeweb1.iorestoacasa.work:8081"]
   },
@@ -31,7 +34,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi.unicorni.team/",
       "jitsi_hosted_by": "🦄",
-      "jitsi_hosted_by_url": "https://unicorni.team/"
+      "jitsi_hosted_by_url": "https://unicorni.team/",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["jitsi.unicorni.team:8081"]
   },
@@ -40,7 +44,8 @@
       "job": "node",
       "jitsi_url": "https://webmeeting.opensolution.it/",
       "jitsi_hosted_by": "Open Solution Srl",
-      "jitsi_hosted_by_url": "https://www.opensolution.it/"
+      "jitsi_hosted_by_url": "https://www.opensolution.it/",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["webmeeting.opensolution.it:8081"]
   },
@@ -49,7 +54,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi.linux.it",
       "jitsi_hosted_by": "ILS",
-      "jitsi_hosted_by_url": "https://www.ils.org/"
+      "jitsi_hosted_by_url": "https://www.ils.org/",
+      "jitsi_hosted_by_kind": "ASSOCIATION"
     },
     "targets": ["jitsi.linux.it:8081"]
   },
@@ -58,7 +64,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi2.linux.it",
       "jitsi_hosted_by": "ILS",
-      "jitsi_hosted_by_url": "https://www.ils.org/"
+      "jitsi_hosted_by_url": "https://www.ils.org/",
+      "jitsi_hosted_by_kind": "ASSOCIATION"
     },
     "targets": ["jitsi2.linux.it:8081"]
   },
@@ -67,7 +74,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi.argaar.net",
       "jitsi_hosted_by": "Davide \"argaar\" Foschi",
-      "jitsi_hosted_by_url": "https://www.linkedin.com/in/davidefoschi/"
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/davidefoschi/",
+      "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["jitsi.argaar.net:8081"]
   },
@@ -76,7 +84,8 @@
       "job": "node",
       "jitsi_url": "https://talk.win-tek.eu",
       "jitsi_hosted_by": "Win-Tek",
-      "jitsi_hosted_by_url": "https://win-tek.eu"
+      "jitsi_hosted_by_url": "https://win-tek.eu",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["talk.win-tek.eu:54110"]
   },
@@ -85,7 +94,8 @@
       "job": "node",
       "jitsi_url": "https://koma.iorestoacasa.work",
       "jitsi_hosted_by": "Andrea \"Koma\" Cervesato",
-      "jitsi_hosted_by_url": "https://www.linkedin.com/in/andreacervesato/"
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/andreacervesato/",
+      "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["koma.iorestoacasa.work:18080"]
   },
@@ -94,7 +104,8 @@
       "job": "node",
       "jitsi_url": "https://open.meet.garr.it/",
       "jitsi_hosted_by": "rete GARR",
-      "jitsi_hosted_by_url": "https://www.garr.it/"
+      "jitsi_hosted_by_url": "https://www.garr.it/",
+      "jitsi_hosted_by_kind": "INSTITUTION"
     },
     "targets": ["open.meet.garr.it:8081"]
   },
@@ -103,7 +114,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi.ospf.it/",
       "jitsi_hosted_by": "Giuseppe Augiero",
-      "jitsi_hosted_by_url": "https://www.augiero.it/"
+      "jitsi_hosted_by_url": "https://www.augiero.it/",
+      "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["jitsi.ospf.it:8081"]
   },
@@ -112,7 +124,8 @@
       "job": "node",
       "jitsi_url": "https://conference.ready-web.it/",
       "jitsi_hosted_by": "Ready Software",
-      "jitsi_hosted_by_url": "https://software.ready-web.it/"
+      "jitsi_hosted_by_url": "https://software.ready-web.it/",
+      "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["conference.ready-web.it:8081"]
   },
@@ -121,7 +134,8 @@
       "job": "node",
       "jitsi_url": "https://iorestoacasa.imaa.cnr.it/",
       "jitsi_hosted_by": "Consiglio Nazionale delle Ricerche - IMAA",
-      "jitsi_hosted_by_url": "https://www.imaa.cnr.it"
+      "jitsi_hosted_by_url": "https://www.imaa.cnr.it",
+      "jitsi_hosted_by_kind": "INSTITUTION"
     },
     "targets": ["iorestoacasa.imaa.cnr.it:8081"]
   },
@@ -130,7 +144,8 @@
       "job": "node",
       "jitsi_url": "https://wc.anux.it",
       "jitsi_hosted_by": "Pawel 'okno' Zorzan Urban - IFInet s.r.l.",
-      "jitsi_hosted_by_url": "https://www.ifinet.it"
+      "jitsi_hosted_by_url": "https://www.ifinet.it",
+      "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["wc.anux.it:8081"]
   },
@@ -139,7 +154,8 @@
       "job": "node",
       "jitsi_url": "https://jitsi.minucci.net",
       "jitsi_hosted_by": "Carlo (Gecco) Minucci",
-      "jitsi_hosted_by_url": "https://minucci.net"
+      "jitsi_hosted_by_url": "https://minucci.net",
+      "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["jitsi.minucci.net:8081"]
   }

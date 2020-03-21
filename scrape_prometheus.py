@@ -10,6 +10,12 @@ def load_prometheus_query(query):
 while True:
     time.sleep(5)
     instances = {}
+    credits = {
+        'INSTITUTION': set(),
+        'COMPANY': set(),
+        'PERSON': set(),
+        'ASSOCIATION': set(),
+    }
     participants_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_participants')
     cpu_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_cpu_usage')
 
@@ -21,6 +27,8 @@ while True:
             d['by'] = server['metric']['jitsi_hosted_by']
             d['by_url'] = server['metric']['jitsi_hosted_by_url']
             d['url'] = server['metric']['jitsi_url']
+            d['by_kind'] = server['metric']['jitsi_hosted_by_kind']
+            credits[d['by_kind']].add((d['by'], d['by_url']))
             instances[d['name']] = d
  
     for server in cpu_data['data']['result']:
@@ -28,6 +36,14 @@ while True:
             name = server['metric']['instance'].split(':')[0]
             instances[name]['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
 
-    with open('/hosts.json', 'w') as f:
-        f.write(json.dumps(list(instances.values()), indent=2))
+    new_credits = {}
+    for key, item in credits.items():
+        new_credits[key] = list(item)
 
+    result = {
+        'instances': list(instances.values()),
+        'credits': new_credits,
+    }
+
+    with open('/hosts.json', 'w') as f:
+        f.write(json.dumps(result, indent=2))
