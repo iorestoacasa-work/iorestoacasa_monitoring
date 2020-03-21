@@ -158,5 +158,15 @@
       "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["jitsi.minucci.net:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.itaster.com",
+      "jitsi_hosted_by": "Giulio Cellati [Scr4us0]",
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/giuliocellati/",
+      "jitsi_hosted_by_kind": "PERSON"
+    },
+    "targets": ["jitsi.itaster.com:8081"]
   }
 ]
