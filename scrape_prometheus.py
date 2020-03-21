@@ -20,7 +20,7 @@ while True:
     cpu_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_cpu_usage')
 
     for server in participants_data['data']['result']:
-        if 'jitsi_hosted_by' in server['metric']:
+        if 'jitsi_hosted_by_kind' in server['metric']:
             d = {}
             d['name'] = server['metric']['instance'].split(':')[0]
             d['user_count'] = int(server['value'][1])
