@@ -168,5 +168,15 @@
       "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["jitsi.itaster.com:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://iorestoacasa.hazztech.it/",
+      "jitsi_hosted_by": "Federico \"Hazzard17\" Salvetti",
+      "jitsi_hosted_by_url": "https://www.linkedin.com/in/federico-salvetti/",
+      "jitsi_hosted_by_kind": "PERSON"
+    },
+    "targets": ["iorestoacasa.hazztech.it:8081"]
   }
 ]
