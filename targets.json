@@ -178,5 +178,15 @@
       "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["iorestoacasa.hazztech.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi.cedrc.cnr.it/",
+      "jitsi_hosted_by": "Consiglio Nazionale delle Ricerche - Ufficio ICT-SAC",
+      "jitsi_hosted_by_url": "https://www.cnr.it/it/struttura/dcsr-uict/ufficio-ict",
+      "jitsi_hosted_by_kind": "INSTITUTION"
+    },
+    "targets": ["jitsi.cedrc.cnr.it:8081"]
   }
 ]
