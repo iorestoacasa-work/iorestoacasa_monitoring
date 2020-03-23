@@ -188,5 +188,15 @@
       "jitsi_hosted_by_kind": "INSTITUTION"
     },
     "targets": ["jitsi.cedrc.cnr.it:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://meet.a80.it/",
+      "jitsi_hosted_by": "Mircha Emanuel \"ryuujin\" D'Angelo",
+      "jitsi_hosted_by_url": "https://a80.it",
+      "jitsi_hosted_by_kind": "PERSON"
+    },
+    "targets": ["meet.a80.it:48081"]
   }
 ]
