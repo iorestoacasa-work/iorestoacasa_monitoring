@@ -198,5 +198,25 @@
       "jitsi_hosted_by_kind": "PERSON"
     },
     "targets": ["meet.a80.it:48081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi01.loclix.io",
+      "jitsi_hosted_by": "LocLix Italia",
+      "jitsi_hosted_by_url": "https://loclix.it",
+      "jitsi_hosted_by_kind": "COMPANY"
+    },
+    "targets": ["jitsi01.loclix.io:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://jitsi02.loclix.io",
+      "jitsi_hosted_by": "LocLix Italia",
+      "jitsi_hosted_by_url": "https://loclix.it",
+      "jitsi_hosted_by_kind": "COMPANY"
+    },
+    "targets": ["jitsi02.loclix.io:8081"]
   }
 ]
