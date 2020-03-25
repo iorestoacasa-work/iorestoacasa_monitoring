@@ -205,3 +205,12 @@
     software: JITSI
   targets:
   - vigo.4sigma.it:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.ragnetti.com
+    jitsi_hosted_by: Samuele Ragnetti
+    jitsi_hosted_by_url: https://www.srphotography.it/
+    jitsi_hosted_by_kind: PERSON
+    software: JITSI
+  targets:
+  - jitsi.ragnetti.com:8081
