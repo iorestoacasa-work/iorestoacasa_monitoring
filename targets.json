@@ -218,5 +218,15 @@
       "jitsi_hosted_by_kind": "COMPANY"
     },
     "targets": ["jitsi02.loclix.io:8081"]
+  },
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://vigo.4sigma.it",
+      "jitsi_hosted_by": "4Sigma",
+      "jitsi_hosted_by_url": "https://4sigma.it/",
+      "jitsi_hosted_by_kind": "COMPANY"
+    },
+    "targets": ["vigo.4sigma.it:8081"]
   }
 ]
