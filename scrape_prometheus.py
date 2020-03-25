@@ -26,7 +26,7 @@ while True:
     mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=probe_success{software="MM"}')
 
     for server in participants_data['data']['result']:
-        if 'jitsi_hosted_by_kind' in server['metric']:
+        if 'jitsi_hosted_by_kind' in server['metric'] and 'software' in server['metric'] and server['metric']['software'] == 'JITSI':
             d = {}
             d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
             d['user_count'] = int(server['value'][1])
