@@ -7,6 +7,11 @@ def load_prometheus_query(query):
     with urllib.request.urlopen(req) as f:
         return json.loads(f.read().decode('utf-8'))
 
+def clean_trailing_slash(url):
+    if url[-1] == '/':
+        return url[:-1]
+    return url
+
 while True:
     time.sleep(5)
     instances = {}
@@ -18,23 +23,37 @@ while True:
     }
     participants_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_participants')
     cpu_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_cpu_usage')
+    mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=probe_success{software="MM"}')
 
     for server in participants_data['data']['result']:
         if 'jitsi_hosted_by_kind' in server['metric']:
             d = {}
-            d['name'] = server['metric']['instance'].split(':')[0]
+            d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
             d['user_count'] = int(server['value'][1])
             d['by'] = server['metric']['jitsi_hosted_by']
-            d['by_url'] = server['metric']['jitsi_hosted_by_url']
-            d['url'] = server['metric']['jitsi_url']
+            d['by_url'] = clean_trailing_slash(server['metric']['jitsi_hosted_by_url'])
+            d['url'] = clean_trailing_slash(server['metric']['jitsi_url'])
             d['by_kind'] = server['metric']['jitsi_hosted_by_kind']
+            d['software'] = server['metric']['software']
             credits[d['by_kind']].add((d['by'], d['by_url']))
             instances[d['name']] = d
  
     for server in cpu_data['data']['result']:
         if 'jitsi_hosted_by' in server['metric']:
-            name = server['metric']['instance'].split(':')[0]
+            name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
             instances[name]['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
+
+    for server in mm_data['data']['result']:
+        if server['metric'].get('software') == 'MM' and server['value'][1] == '1':
+            d = {}
+            d['name'] = clean_trailing_slash(server['metric']['instance'].replace('https://', ''))
+            d['url'] = clean_trailing_slash(server['metric']['url'])
+            d['by'] = server['metric']['hosted_by']
+            d['by_url'] = clean_trailing_slash(server['metric']['hosted_by_url'])
+            d['by_kind'] = server['metric']['hosted_by_kind']
+            d['software'] = server['metric']['software']
+            credits[d['by_kind']].add((d['by'], d['by_url']))
+            instances[d['name']] = d
 
     new_credits = {}
     for key, item in credits.items():

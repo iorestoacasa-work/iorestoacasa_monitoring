@@ -1,0 +1,18 @@
+- labels:
+    job: node
+    url: https://edu.meet.garr.it
+    hosted_by: GARR
+    hosted_by_url: https://www.garr.it
+    hosted_by_kind: INSTITUTION
+    software: MM
+  targets:
+  - https://edu.meet.garr.it
+- labels:
+    job: node
+    url: https://edumeet.imaa.cnr.it
+    hosted_by: Consiglio Nazionale delle Ricerche - IMAA
+    hosted_by_url: https://www.imaa.cnr.it
+    hosted_by_kind: INSTITUTION
+    software: MM
+  targets:
+  - https://edumeet.imaa.cnr.it

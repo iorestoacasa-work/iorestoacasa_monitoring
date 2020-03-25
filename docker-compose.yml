@@ -4,13 +4,23 @@ services:
     image: prom/prometheus
     volumes:
         - ./prometheus.yml:/etc/prometheus/prometheus.yml
-        - ./targets.json:/etc/prometheus/targets.json
+        - ./jitsi_targets.yml:/etc/prometheus/jitsi_targets.yml
+        - ./mm_targets.yml:/etc/prometheus/mm_targets.yml
         - prometheus_data:/prometheus
     command:
         - '--config.file=/etc/prometheus/prometheus.yml'
     restart: unless-stopped
     ports:
         - '127.0.0.1:9090:9090'
+  blackbox_exporter:
+    image: prom/blackbox-exporter
+    ports:
+        - '127.0.0.1:9115:9115'
+    dns: 1.1.1.1
+    restart: unless-stopped
+    volumes:
+      - "./blackbox.yml:/blackbox.yml"
+    command: --config.file=/blackbox.yml
   grafana:
     image: grafana/grafana
     environment:
