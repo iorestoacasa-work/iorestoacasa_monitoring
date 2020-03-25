@@ -219,4 +219,14 @@
     },
     "targets": ["jitsi02.loclix.io:8081"]
   }
+  {
+    "labels": {
+      "job": "node",
+      "jitsi_url": "https://video.beic.it",
+      "jitsi_hosted_by": "Fondazione BEIC",
+      "jitsi_hosted_by_url": "https://www.beic.it",
+      "jitsi_hosted_by_kind": "INSTITUTION"
+    },
+    "targets": ["video.beic.it:8081"]
+  }
 ]
