@@ -245,8 +245,17 @@
     job: node
     jitsi_url: https://meet.arcolink.it
     jitsi_hosted_by: Arcolink by Next.it S.r.l.
-    jitsi_hosted_by_url:  https://www.arcolink.it
+    jitsi_hosted_by_url: https://www.arcolink.it
     jitsi_hosted_by_kind: COMPANY
     software: JITSI
   targets:
   - meet.arcolink.it:8081
+- labels:
+    job: node
+    jitsi_url: https://meet.digitalcombel.it/
+    jitsi_hosted_by: Consorzio Digital Combel
+    jitsi_hosted_by_url: https://www.digitalcombel.it/
+    jitsi_hosted_by_kind: COMPANY
+    software: JITSI
+  targets:
+  - meet.digitalcombel.it:8081
