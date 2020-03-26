@@ -214,3 +214,21 @@
     software: JITSI
   targets:
   - jitsi.ragnetti.com:8081
+- labels:
+    job: node
+    jitsi_url: https://meet.cdbergamo.it/
+    jitsi_hosted_by: CD Bergamo
+    jitsi_hosted_by_url: https://www.cdbergamo.it/
+    jitsi_hosted_by_kind: COMPANY
+    software: JITSI
+  targets:
+  - meet.cdbergamo.it:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.metsistemi.com
+    jitsi_hosted_by: MET Sistemi
+    jitsi_hosted_by_url: \#
+    jitsi_hosted_by_kind: COMPANY
+    software: JITSI
+  targets:
+  - jitsi.metsistemi.com:8081
