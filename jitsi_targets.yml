@@ -262,9 +262,20 @@
 - labels:
     job: node
     jitsi_url: https://jitsi.area.fi.cnr.it
-    jitsi_hosted_by: Area di Ricerca di Firenze - CNR
+    jitsi_hosted_by: Consiglio Nazionale delle Ricerche - Area di Ricerca di Firenze
     jitsi_hosted_by_url: http://www.area.fi.cnr.it
     jitsi_hosted_by_kind: INSTITUTION
     software: JITSI
   targets:
   - jitsi.area.fi.cnr.it:8081
+- labels:
+    job: node
+    jitsi_url: https://iorestoacasa.unicam.it
+    jitsi_hosted_by: Università di Camerino
+    jitsi_hosted_by_url: https://www.unicam.it
+    jitsi_hosted_by_kind: INSTITUTION
+    software: JITSI
+  targets:
+  - iorestoacasa.unicam.it:8081
+
+
