@@ -259,3 +259,12 @@
     software: JITSI
   targets:
   - meet.digitalcombel.it:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.area.fi.cnr.it
+    jitsi_hosted_by: Area di Ricerca di Firenze - CNR
+    jitsi_hosted_by_url: http://www.area.fi.cnr.it
+    jitsi_hosted_by_kind: INSTITUTION
+    software: JITSI
+  targets:
+  - jitsi.area.fi.cnr.it:8081
