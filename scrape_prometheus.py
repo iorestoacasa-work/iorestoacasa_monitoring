@@ -25,23 +25,23 @@ while True:
     jitsi_required_labels = [
         'instance',
         'jitsi_hosted_by',
-        'jitsi_hosted_by_url'
-        'jitsi_url'
-        'jitsi_hosted_by_kind'
-        'software'
-        'available_bandwidth_mbps'
-        'core_count'
+        'jitsi_hosted_by_url',
+        'jitsi_url',
+        'jitsi_hosted_by_kind',
+        'software',
+        'available_bandwidth_mbps',
+        'core_count',
     ]
 
     mm_required_labels = [
-        'instance'
-        'url'
-        'hosted_by'
-        'hosted_by_url'
-        'hosted_by_kind'
-        'available_bandwidth_mbps'
-        'core_count'
-        'software'
+        'instance',
+        'url',
+        'hosted_by',
+        'hosted_by_url',
+        'hosted_by_kind',
+        'available_bandwidth_mbps',
+        'core_count',
+        'software',
     ]
 
     participants_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_participants')
