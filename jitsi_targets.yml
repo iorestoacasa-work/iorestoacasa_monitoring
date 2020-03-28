@@ -252,15 +252,6 @@
   - meet.arcolink.it:8081
 - labels:
     job: node
-    jitsi_url: https://meet.digitalcombel.it/
-    jitsi_hosted_by: Consorzio Digital Combel
-    jitsi_hosted_by_url: https://www.digitalcombel.it/
-    jitsi_hosted_by_kind: COMPANY
-    software: JITSI
-  targets:
-  - meet.digitalcombel.it:8081
-- labels:
-    job: node
     jitsi_url: https://jitsi.area.fi.cnr.it
     jitsi_hosted_by: Consiglio Nazionale delle Ricerche - Area di Ricerca di Firenze
     jitsi_hosted_by_url: http://www.area.fi.cnr.it
