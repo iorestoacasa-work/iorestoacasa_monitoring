@@ -49,9 +49,8 @@ while True:
     mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=probe_success{software="MM"}')
 
     for server in participants_data['data']['result']:
-        for key in jitsi_required_labels:
-            if not key in server['metric']:
-                continue
+        if not all(key in server['metric'] for key in jitsi_required_labels):
+            continue
         if server['metric']['software'] == 'JITSI':
             d = {}
             d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
@@ -67,17 +66,15 @@ while True:
             instances[d['name']] = d
  
     for server in cpu_data['data']['result']:
-        for key in jitsi_required_labels:
-            if not key in server['metric']:
-                continue
+        if not all(key in server['metric'] for key in jitsi_required_labels):
+            continue
         if server['metric']['software'] == 'JITSI':
             name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
             instances[name]['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
 
     for server in mm_data['data']['result']:
-        for key in mm_required_labels:
-            if not key in server['metric']:
-                continue
+        if not all(key in server['metric'] for key in mm_required_labels):
+            continue
         if server['metric'].get('software') == 'MM' and server['value'][1] == '1':
             d = {}
             d['name'] = clean_trailing_slash(server['metric']['instance'].replace('https://', ''))
