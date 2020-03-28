@@ -277,3 +277,12 @@
     software: JITSI
   targets:
   - ioesco.machedavero.com:8081
+- labels:
+    job: node
+    jitsi_url: https://tophost.iorestoacasa.work
+    jitsi_hosted_by: Tophost
+    jitsi_hosted_by_url: https://www.tophost.it/
+    jitsi_hosted_by_kind: COMPANY
+    software: JITSI
+  targets:
+  - tophost.iorestoacasa.work:8081
