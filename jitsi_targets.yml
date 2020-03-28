@@ -277,5 +277,12 @@
     software: JITSI
   targets:
   - iorestoacasa.unicam.it:8081
-
-
+- labels:
+    job: node
+    jitsi_url: https://ioesco.machedavero.com
+    jitsi_hosted_by: MilLuX
+    jitsi_hosted_by_url: http://www.machedavero.com/credits
+    jitsi_hosted_by_kind: ASSOCIATION
+    software: JITSI
+  targets:
+  - ioesco.machedavero.com:8081
