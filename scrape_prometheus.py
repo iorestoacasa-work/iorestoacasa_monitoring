@@ -46,7 +46,9 @@ while True:
 
     participants_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_participants')
     cpu_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=jitsi_cpu_usage')
-    mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=probe_success{software="MM"}')
+    static_mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=probe_success{software="MM"}')
+    mm_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=edumeet_cpu_usage')
+    mm_peers_data = load_prometheus_query('http://prometheus:9090/api/v1/query?query=edumeet_peers')
 
     for server in participants_data['data']['result']:
         if not all(key in server['metric'] for key in jitsi_required_labels):
@@ -72,7 +74,7 @@ while True:
             name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
             instances[name]['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
 
-    for server in mm_data['data']['result']:
+    for server in static_mm_data['data']['result']:
         if not all(key in server['metric'] for key in mm_required_labels):
             continue
         if server['metric'].get('software') == 'MM' and server['value'][1] == '1':
@@ -87,6 +89,31 @@ while True:
             d['core_count'] = server['metric']['core_count']
             credits[d['by_kind']].add((d['by'], d['by_url']))
             instances[d['name']] = d
+
+    for server in mm_data['data']['result']:
+        if not all(key in server['metric'] for key in mm_required_labels):
+            continue
+        if server['metric'].get('software') == 'MM':
+            d = {}
+            d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            d['url'] = clean_trailing_slash(server['metric']['url'])
+            d['by'] = server['metric']['hosted_by']
+            d['by_url'] = clean_trailing_slash(server['metric']['hosted_by_url'])
+            d['by_kind'] = server['metric']['hosted_by_kind']
+            d['software'] = server['metric']['software']
+            d['available_bandwidth_mbps'] = server['metric']['available_bandwidth_mbps']
+            d['core_count'] = server['metric']['core_count']
+            d['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
+            credits[d['by_kind']].add((d['by'], d['by_url']))
+            instances[d['name']] = d
+
+    for server in mm_peers_data['data']['result']:
+        if not all(key in server['metric'] for key in mm_required_labels):
+            continue
+        if server['metric']['software'] == 'MM':
+            name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            instances[name]['user_count'] = int(server['value'][1])
+
 
     new_credits = {}
     for key, item in credits.items():

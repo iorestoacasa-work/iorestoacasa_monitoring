@@ -6,6 +6,7 @@ services:
         - ./prometheus.yml:/etc/prometheus/prometheus.yml
         - ./jitsi_targets.yml:/etc/prometheus/jitsi_targets.yml
         - ./mm_targets.yml:/etc/prometheus/mm_targets.yml
+        - ./mm_static_targets.yml:/etc/prometheus/mm_static_targets.yml
         - prometheus_data:/prometheus
     command:
         - '--config.file=/etc/prometheus/prometheus.yml'

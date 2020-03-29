@@ -1,0 +1,11 @@
+- labels:
+    job: node
+    url: https://edumeet.imaa.cnr.it
+    hosted_by: Consiglio Nazionale delle Ricerche - IMAA
+    hosted_by_url: https://www.imaa.cnr.it
+    hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: '?'
+    core_count: '?'
+    software: MM
+  targets:
+  - https://edumeet.imaa.cnr.it
