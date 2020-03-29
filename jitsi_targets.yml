@@ -203,7 +203,7 @@
     jitsi_hosted_by_url: https://www.cnr.it/it/struttura/dcsr-uict/ufficio-ict
     jitsi_hosted_by_kind: INSTITUTION
     available_bandwidth_mbps: 10000
-    core_count: 8
+    core_count: 16
     software: JITSI
   targets:
   - jitsi.cedrc.cnr.it:8081
