@@ -359,3 +359,14 @@
     software: JITSI
   targets:
   - tophost.iorestoacasa.work:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.lucasalvestrini.it
+    jitsi_hosted_by: Luca Salvestrini
+    jitsi_hosted_by_url: https://lucasalvestrini.it
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 200
+    core_count: 4
+    software: JITSI
+  targets:
+  - jitsi.lucasalvestrini.it:8081
