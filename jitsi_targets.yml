@@ -322,7 +322,7 @@
     jitsi_hosted_by_url: http://www.area.fi.cnr.it
     jitsi_hosted_by_kind: INSTITUTION
     available_bandwidth_mbps: 1000
-    core_count: 2
+    core_count: 6
     software: JITSI
   targets:
   - jitsi.area.fi.cnr.it:8081
