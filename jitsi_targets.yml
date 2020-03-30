@@ -370,3 +370,14 @@
     software: JITSI
   targets:
   - jitsi.lucasalvestrini.it:8081
+- labels:
+    job: node
+    jitsi_url: https://iorestoacasa.crs4.it
+    jitsi_hosted_by: CRS4
+    jitsi_hosted_by_url: http://www.crs4.it
+    jitsi_hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: JITSI
+  targets:
+  - iorestoacasa.crs4.it:8081
