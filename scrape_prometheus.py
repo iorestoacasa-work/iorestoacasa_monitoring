@@ -55,7 +55,7 @@ while True:
             continue
         if server['metric']['software'] == 'JITSI':
             d = {}
-            d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            d['name'] = clean_trailing_slash(server['metric']['jitsi_url'].replace('https://', ''))
             d['user_count'] = int(server['value'][1])
             d['by'] = server['metric']['jitsi_hosted_by']
             d['by_url'] = clean_trailing_slash(server['metric']['jitsi_hosted_by_url'])
@@ -71,7 +71,7 @@ while True:
         if not all(key in server['metric'] for key in jitsi_required_labels):
             continue
         if server['metric']['software'] == 'JITSI':
-            name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            name = clean_trailing_slash(server['metric']['jitsi_url'].replace('https://', ''))
             instances[name]['cpu_usage'] = round(float(server['value'][1]), ndigits=2)
 
     for server in static_mm_data['data']['result']:
@@ -79,7 +79,7 @@ while True:
             continue
         if server['metric'].get('software') == 'MM' and server['value'][1] == '1':
             d = {}
-            d['name'] = clean_trailing_slash(server['metric']['instance'].replace('https://', ''))
+            d['name'] = clean_trailing_slash(server['metric']['jitsi_url'].replace('https://', ''))
             d['url'] = clean_trailing_slash(server['metric']['url'])
             d['by'] = server['metric']['hosted_by']
             d['by_url'] = clean_trailing_slash(server['metric']['hosted_by_url'])
@@ -95,7 +95,7 @@ while True:
             continue
         if server['metric'].get('software') == 'MM':
             d = {}
-            d['name'] = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            d['name'] = clean_trailing_slash(server['metric']['url'].replace('https://', ''))
             d['url'] = clean_trailing_slash(server['metric']['url'])
             d['by'] = server['metric']['hosted_by']
             d['by_url'] = clean_trailing_slash(server['metric']['hosted_by_url'])
@@ -111,7 +111,7 @@ while True:
         if not all(key in server['metric'] for key in mm_required_labels):
             continue
         if server['metric']['software'] == 'MM':
-            name = clean_trailing_slash(server['metric']['instance'].split(':')[0])
+            name = clean_trailing_slash(server['metric']['url'].replace('https://', ''))
             instances[name]['user_count'] = int(server['value'][1])
 
 
