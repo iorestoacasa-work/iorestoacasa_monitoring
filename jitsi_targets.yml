@@ -381,3 +381,14 @@
     software: JITSI
   targets:
   - iorestoacasa.crs4.it:8081
+- labels:
+    job: node
+    jitsi_url: https://meet.simcaa.org
+    jitsi_hosted_by: OpenLab Asti
+    jitsi_hosted_by_url: www.openlabasti.it
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 10000
+    core_count: 4
+    software: JITSI
+  targets:
+  - 3.127.186.36:9258
