@@ -392,3 +392,14 @@
     software: JITSI
   targets:
   - 3.127.186.36:9258
+- labels:
+    job: node
+    jitsi_url: https://jitsi.netsons.net
+    jitsi_hosted_by: Netsons
+    jitsi_hosted_by_url: https://www.netsons.com
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 8
+    software: JITSI
+  targets:
+  - jitsi.netsons.net:8081
