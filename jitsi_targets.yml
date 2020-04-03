@@ -125,7 +125,7 @@
     jitsi_hosted_by: Giuseppe Augiero
     jitsi_hosted_by_url: https://www.augiero.it/
     jitsi_hosted_by_kind: PERSON
-    available_bandwidth_mbps: 100
+    available_bandwidth_mbps: 400
     core_count: 4
     software: JITSI
   targets:
