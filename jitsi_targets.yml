@@ -148,7 +148,7 @@
     jitsi_hosted_by_url: https://www.imaa.cnr.it
     jitsi_hosted_by_kind: INSTITUTION
     available_bandwidth_mbps: 1000
-    core_count: 6
+    core_count: 8
     software: JITSI
   targets:
   - iorestoacasa.imaa.cnr.it:8081
