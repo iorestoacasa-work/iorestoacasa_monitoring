@@ -42,3 +42,14 @@
     software: MM
   targets:
   - iorestoacasa.riminilug.it:8081
+- labels:
+    job: node
+    url: https://mm.rd.unidata.it
+    hosted_by: Unidata (R&D)
+    hosted_by_url: https://www.unidata.it
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: MM
+  targets:
+  - mm.rd.unidata.it:8081
