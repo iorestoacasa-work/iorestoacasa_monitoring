@@ -312,6 +312,8 @@
     jitsi_hosted_by: Consorzio Digital Combel
     jitsi_hosted_by_url: https://www.digitalcombel.it/
     jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 200
+    core_count: 4
     software: JITSI
   targets:
   - meet.digitalcombel.it:8081
