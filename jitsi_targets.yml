@@ -405,3 +405,15 @@
     software: JITSI
   targets:
   - jitsi.netsons.net:8081
+- labels:
+    job: node
+    jitsi_url: https://ebi.iorestoacasa.work
+    jitsi_hosted_by: EBiForE
+    jitsi_hosted_by_url: https://t.me/SalaMusica
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 400
+    core_count: 6
+    software: JITSI
+  targets:
+  - ebi.iorestoacasa.work:8081
+
