@@ -341,15 +341,15 @@
   - iorestoacasa.unicam.it:8081
 - labels:
     job: node
-    jitsi_url: https://ioesco.machedavero.com
-    jitsi_hosted_by: MilLuX
-    jitsi_hosted_by_url: https://www.machedavero.com/
-    jitsi_hosted_by_kind: ASSOCIATION
+    jitsi_url: https://jitsi.rd.unidata.it
+    jitsi_hosted_by: Unidata (R&D)
+    jitsi_hosted_by_url: https://www.unidata.it
+    jitsi_hosted_by_kind: COMPANY
     available_bandwidth_mbps: 1000
     core_count: 8
     software: JITSI
   targets:
-  - ioesco.machedavero.com:8081
+  - jitsi.rd.unidata.it:8081
 - labels:
     job: node
     jitsi_url: https://tophost.iorestoacasa.work
