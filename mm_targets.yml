@@ -53,3 +53,15 @@
     software: MM
   targets:
   - mm.rd.unidata.it:8081
+- labels:
+    job: node
+    url: https://mm.cedrc.cnr.it
+    hosted_by: Consiglio Nazionale delle Ricerche - Ufficio ICT-SAC
+    hosted_by_url: https://www.cnr.it/it/struttura/dcsr-uict/ufficio-ict
+    hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 10000
+    core_count: 8
+    software: MM
+  targets:
+  - mm.cedrc.cnr.it:8081
+
