@@ -64,4 +64,15 @@
     software: MM
   targets:
   - mm.cedrc.cnr.it:8081
+- labels:
+    job: node
+    url: https://meet.win-tek.eu
+    hosted_by: Win-Tek
+    hosted_by_url: https://win-tek.eu
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 6
+    software: MM
+  targets:
+  - meet.win-tek.eu:8081
 
