@@ -75,4 +75,15 @@
     software: MM
   targets:
   - meet.win-tek.eu:8081
+- labels:
+    job: node
+    url: https://edumeeting.area.fi.cnr.it
+    hosted_by: Consiglio Nazionale delle Ricerche - Area di Ricerca di Firenze
+    hosted_by_url: http://www.area.fi.cnr.it
+    hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 1000
+    core_count: 8
+    software: MM
+  targets:
+  - edumeeting.area.fi.cnr.it:8081
 
