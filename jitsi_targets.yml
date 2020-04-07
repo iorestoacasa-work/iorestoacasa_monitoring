@@ -416,4 +416,15 @@
     software: JITSI
   targets:
   - ebi.iorestoacasa.work:8081
+- labels:
+    job: node
+    jitsi_url: https://iorestoacasa.uni.it
+    jitsi_hosted_by: Unidata S.p.A.
+    jitsi_hosted_by_url: https://www.unidata.it/
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 8
+    software: JITSI
+  targets:
+  - iorestoacasa.uni.it:8081
 
