@@ -4,7 +4,7 @@ prometheus + grafana = ❤️
 
 ## procedura per aggiungere un server MM
 
-1. chiedi a @tapion
+1. stessa procedura di Jitsi ma si va a modificare `mm_targets.yml`
 
 ## procedura per aggiungere un server Jitsi
 
