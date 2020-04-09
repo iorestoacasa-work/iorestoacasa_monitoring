@@ -97,4 +97,14 @@
     software: MM
   targets:
   - edu.colman.it:8081
+- labels:
+    url: https://tophost2.iorestoacasa.work
+    hosted_by: Tophost
+    hosted_by_url: https://www.tophost.it/
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: MM
+  targets:
+  - tophost2.iorestoacasa.work:8081
 
