@@ -107,4 +107,14 @@
     software: MM
   targets:
   - tophost2.iorestoacasa.work:8081
+- labels:
+    url: https://lepida1.iorestoacasa.work
+    hosted_by: Lepida
+    hosted_by_url: https://www.lepida.net
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 20000
+    core_count: 64
+    software: MM
+  targets:
+  - lepida1.iorestoacasa.work:8081
 
