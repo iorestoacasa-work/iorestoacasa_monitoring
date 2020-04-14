@@ -429,6 +429,17 @@
   - iorestoacasa.uni.it:8081
 - labels:
     job: node
+    jitsi_url: https://jitsi.serversolutions.cloud/  
+    jitsi_hosted_by: Davide Cruccolini
+    jitsi_hosted_by_url: https://serversolutions.cloud
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 100
+    core_count: 4
+    software: JITSI
+  targets:
+  - jitsi.serversolutions.cloud:8081
+- labels:
+    job: node
     jitsi_url: https://valli.sgs.dev
     jitsi_hosted_by: Giuseppe Saviano
     jitsi_hosted_by_url: https://www.linkedin.com/in/gsaviano/
@@ -438,4 +449,3 @@
     software: JITSI
   targets:
   - valli.sgs.dev:8081
-
