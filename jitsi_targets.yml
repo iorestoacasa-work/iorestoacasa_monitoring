@@ -449,3 +449,15 @@
     software: JITSI
   targets:
   - meet.cappell.in:8081
+- labels:
+    job: node
+    jitsi_url: https://lepida2.iorestoacasa.work
+    jitsi_hosted_by: Lepida
+    jitsi_hosted_by_url: https://www.lepida.net
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 20000
+    core_count: 64
+    software: JITSI
+  targets:
+  - lepida2.iorestoacasa.work:8081
+
