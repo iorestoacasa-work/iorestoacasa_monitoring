@@ -438,4 +438,16 @@
     software: JITSI
   targets:
   - meet.cappell.in:8081
+- labels:
+    job: node
+    jitsi_url: https://videoconference.opensolution.it/
+    jitsi_hosted_by: Open Solution Srl
+    jitsi_hosted_by_url: https://www.opensolution.it/
+    jitsi_hosted_by_kind:  AZIENDA
+    available_bandwidth_mbps: 100
+    core_count: 2
+    software: MM
+  targets:
+  - videoconference.opensolution.it:8081
+
 
