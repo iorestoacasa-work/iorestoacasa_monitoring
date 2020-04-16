@@ -477,3 +477,15 @@
     software: JITSI
   targets:
   - balin.siriustec.it:8081
+- labels:
+    job: node
+    jitsi_url: https://tauriel.siriustec.it
+    jitsi_hosted_by: Sirius Technology SRL
+    jitsi_hosted_by_url: https://www.siriustec.it
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 10000
+    core_count: 8
+    software: JITSI
+  targets:
+  - tauriel.siriustec.it:8080
+
