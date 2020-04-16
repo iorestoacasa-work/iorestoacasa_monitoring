@@ -127,3 +127,14 @@
     software: MM
   targets:
   - meet.esperto-informatico.it:8081
+- labels:
+    url: https://videoconference.opensolution.it/
+    hosted_by: Open Solution Srl
+    hosted_by_url: https://www.opensolution.it/
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 100
+    core_count: 2
+    software: MM
+  targets:
+  - videoconference.opensolution.it:8081
+
