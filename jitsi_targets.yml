@@ -330,17 +330,6 @@
   - jitsi.area.fi.cnr.it:8081
 - labels:
     job: node
-    jitsi_url: https://iorestoacasa.unicam.it
-    jitsi_hosted_by: Università di Camerino
-    jitsi_hosted_by_url: https://www.unicam.it
-    jitsi_hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 2000
-    core_count: 4
-    software: JITSI
-  targets:
-  - iorestoacasa.unicam.it:8081
-- labels:
-    job: node
     jitsi_url: https://jitsi.rd.unidata.it
     jitsi_hosted_by: Unidata (R&D)
     jitsi_hosted_by_url: https://www.unidata.it
@@ -392,7 +381,13 @@
     available_bandwidth_mbps: 10000
     core_count: 4
     software: JITSI
-  targets:
+  targets:<<<<<<< master
+444
+ 
+  
+445
+ 
+=======
   - 3.127.186.36:9258
 - labels:
     job: node
@@ -449,6 +444,28 @@
     software: JITSI
   targets:
   - valli.sgs.dev:8081
+- labels:
+    job: node
+    jitsi_url: https://meet.cappell.in/
+    jitsi_hosted_by: Denis Cappellin
+    jitsi_hosted_by_url: https://denis.cappell.in/
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 400
+    core_count: 4
+    software: JITSI
+  targets:
+  - meet.cappell.in:8081
+- labels:
+    job: node
+    jitsi_url: https://lepida2.iorestoacasa.work
+    jitsi_hosted_by: Lepida
+    jitsi_hosted_by_url: https://www.lepida.net
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 20000
+    core_count: 64
+    software: JITSI
+  targets:
+  - lepida2.iorestoacasa.work:8081
 - labels:
     job: node
     jitsi_url: https://balin.siriustec.it
