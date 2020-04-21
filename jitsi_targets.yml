@@ -381,13 +381,7 @@
     available_bandwidth_mbps: 10000
     core_count: 4
     software: JITSI
-  targets:<<<<<<< master
-444
- 
-  
-445
- 
-=======
+  targets:
   - 3.127.186.36:9258
 - labels:
     job: node
@@ -487,5 +481,15 @@
     core_count: 8
     software: JITSI
   targets:
-  - tauriel.siriustec.it:8080
-
+  - tauriel.siriustec.it:8081
+- labels:
+    job: node
+    jitsi_url: https://meet.namex.it
+    jitsi_hosted_by: Namex
+    jitsi_hosted_by_url: https://www.namex.it
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: JITSI
+  targets:
+  - meet.namex.it:8081
