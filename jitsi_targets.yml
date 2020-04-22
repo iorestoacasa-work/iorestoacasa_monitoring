@@ -445,7 +445,7 @@
     jitsi_hosted_by_url: https://denis.cappell.in/
     jitsi_hosted_by_kind: PERSON
     available_bandwidth_mbps: 400
-    core_count: 4
+    core_count: 6
     software: JITSI
   targets:
   - meet.cappell.in:8081
