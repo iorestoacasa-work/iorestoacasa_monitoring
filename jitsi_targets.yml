@@ -88,17 +88,6 @@
   - jitsi.argaar.net:8081
 - labels:
     job: node
-    jitsi_url: https://talk.win-tek.eu
-    jitsi_hosted_by: Win-Tek
-    jitsi_hosted_by_url: https://win-tek.eu
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 2
-    software: JITSI
-  targets:
-  - talk.win-tek.eu:54110
-- labels:
-    job: node
     jitsi_url: https://koma.iorestoacasa.work
     jitsi_hosted_by: Andrea "Koma" Cervesato
     jitsi_hosted_by_url: https://www.linkedin.com/in/andreacervesato/
