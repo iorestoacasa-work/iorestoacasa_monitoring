@@ -242,17 +242,6 @@
   - vigo.4sigma.it:8081
 - labels:
     job: node
-    jitsi_url: https://jitsi.ragnetti.com
-    jitsi_hosted_by: Samuele Ragnetti
-    jitsi_hosted_by_url: https://www.srphotography.it/
-    jitsi_hosted_by_kind: PERSON
-    available_bandwidth_mbps: 200
-    core_count: 4
-    software: JITSI
-  targets:
-  - jitsi.ragnetti.com:8081
-- labels:
-    job: node
     jitsi_url: https://meet.cdbergamo.it/
     jitsi_hosted_by: CD Bergamo
     jitsi_hosted_by_url: https://www.cdbergamo.it/
