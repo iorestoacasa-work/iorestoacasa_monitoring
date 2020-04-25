@@ -482,3 +482,14 @@
     software: JITSI
   targets:
   - meet.namex.it:8081
+- labels:
+    job: node
+    jitsi_url: https://meet264.cappell.in/
+    jitsi_hosted_by: Denis Cappellin
+    jitsi_hosted_by_url: https://denis.cappell.in/
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 400
+    core_count: 4
+    software: JITSI
+  targets:
+  - meet264.cappell.in:8081
