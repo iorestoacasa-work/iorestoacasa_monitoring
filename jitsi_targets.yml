@@ -493,14 +493,3 @@
     software: JITSI
   targets:
   - meet264.cappell.in:8081
-- labels:
-    job: node
-    jitsi_url: https://iorestoacasa01.cineca.it/
-    jitsi_hosted_by: Cineca
-    jitsi_hosted_by_url: https://www.cineca.it/
-    jitsi_hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 10000
-    core_count: 8
-    software: JITSI
-  targets:
-  - iorestoacasa01.cineca.it:8081

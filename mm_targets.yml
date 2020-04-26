@@ -147,23 +147,4 @@
     software: MM
   targets:
   - mm.listaimmobiliare.it:8081
-- labels:
-    url: https://iorestoacasa02.cineca.it/
-    hosted_by: Cineca
-    hosted_by_url: https://www.cineca.it/
-    hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 10000
-    core_count: 8
-    software: MM
-  targets:
-  - iorestoacasa02.cineca.it:8081
-- labels:
-    url: https://iorestoacasa.operweb.cloud/
-    hosted_by: OperWEB by OperNEXT
-    hosted_by_url: https://www.operweb.com/
-    hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 250
-    core_count: 4
-    software: MM
-  targets:
-  - iorestoacasa.operweb.cloud:8081
+
