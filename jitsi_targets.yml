@@ -88,17 +88,6 @@
   - jitsi.argaar.net:8081
 - labels:
     job: node
-    jitsi_url: https://talk.win-tek.eu
-    jitsi_hosted_by: Win-Tek
-    jitsi_hosted_by_url: https://win-tek.eu
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 2
-    software: JITSI
-  targets:
-  - talk.win-tek.eu:54110
-- labels:
-    job: node
     jitsi_url: https://koma.iorestoacasa.work
     jitsi_hosted_by: Andrea "Koma" Cervesato
     jitsi_hosted_by_url: https://www.linkedin.com/in/andreacervesato/
@@ -253,17 +242,6 @@
   - vigo.4sigma.it:8081
 - labels:
     job: node
-    jitsi_url: https://jitsi.ragnetti.com
-    jitsi_hosted_by: Samuele Ragnetti
-    jitsi_hosted_by_url: https://www.srphotography.it/
-    jitsi_hosted_by_kind: PERSON
-    available_bandwidth_mbps: 200
-    core_count: 4
-    software: JITSI
-  targets:
-  - jitsi.ragnetti.com:8081
-- labels:
-    job: node
     jitsi_url: https://meet.cdbergamo.it/
     jitsi_hosted_by: CD Bergamo
     jitsi_hosted_by_url: https://www.cdbergamo.it/
@@ -328,6 +306,17 @@
     software: JITSI
   targets:
   - jitsi.area.fi.cnr.it:8081
+- labels:
+    job: node
+    jitsi_url: https://iorestoacasa.unicam.it
+    jitsi_hosted_by: Università di Camerino
+    jitsi_hosted_by_url: https://www.unicam.it
+    jitsi_hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 2000
+    core_count: 4
+    software: JITSI
+  targets:
+  - iorestoacasa.unicam.it:8081
 - labels:
     job: node
     jitsi_url: https://jitsi.rd.unidata.it
@@ -445,7 +434,7 @@
     jitsi_hosted_by_url: https://denis.cappell.in/
     jitsi_hosted_by_kind: PERSON
     available_bandwidth_mbps: 400
-    core_count: 4
+    core_count: 6
     software: JITSI
   targets:
   - meet.cappell.in:8081
@@ -493,3 +482,25 @@
     software: JITSI
   targets:
   - meet.namex.it:8081
+- labels:
+    job: node
+    jitsi_url: https://meet264.cappell.in/
+    jitsi_hosted_by: Denis Cappellin
+    jitsi_hosted_by_url: https://denis.cappell.in/
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 400
+    core_count: 4
+    software: JITSI
+  targets:
+  - meet264.cappell.in:8081
+- labels:
+    job: node
+    jitsi_url: https://iorestoacasa01.cineca.it/
+    jitsi_hosted_by: Cineca
+    jitsi_hosted_by_url: https://www.cineca.it/
+    jitsi_hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 10000
+    core_count: 8
+    software: JITSI
+  targets:
+  - iorestoacasa01.cineca.it:8081
