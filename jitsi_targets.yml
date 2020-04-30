@@ -504,3 +504,14 @@
     software: JITSI
   targets:
   - iorestoacasa01.cineca.it:8081
+- labels:
+    jobs: node
+    jitsi_url: https://jitsi.serversolutions.cloud/
+    jitsi_hosted_by: Davide Cruccolini
+    jitsi_hosted_by_url: https://jitsi.serversolutions.cloud/
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 100
+    core_count: 4
+    software: JITSI
+  targets:
+  - jitsi.serversolutions.cloud:8081
