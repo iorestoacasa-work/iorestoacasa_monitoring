@@ -172,8 +172,8 @@
     hosted_by: Davide Cruccolini
     hosted_by_url: https://serversolutions.cloud 
     hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 100
-    core_count: 4
+    available_bandwidth_mbps: 200
+    core_count: 8
     software: MM
   targets:
-  - 46.37.24.136:8081
+  - mm.serversolutions.cloud:8081
