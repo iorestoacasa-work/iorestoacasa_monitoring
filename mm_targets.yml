@@ -172,7 +172,7 @@
     hosted_by: Davide Cruccolini
     hosted_by_url: https://serversolutions.cloud
     hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 100
+    available_bandwidth_mbps: 1000
     core_count: 4
     software: MM
   targets:
