@@ -168,6 +168,16 @@
   targets:
     - iorestoacasa.operweb.cloud:8081
 - labels:
+    url: https://mm.serversolutions.cloud 
+    hosted_by: Davide Cruccolini
+    hosted_by_url: https://serversolutions.cloud 
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 200
+    core_count: 8
+    software: MM
+  targets:
+  - mm.serversolutions.cloud:8081
+- labels:
     url: https://mm2.serversolutions.cloud 
     hosted_by: Davide Cruccolini
     hosted_by_url: https://serversolutions.cloud 
