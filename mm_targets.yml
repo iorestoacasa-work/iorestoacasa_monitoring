@@ -59,7 +59,7 @@
     hosted_by: Consiglio Nazionale delle Ricerche - Ufficio ICT-SAC
     hosted_by_url: https://www.cnr.it/it/struttura/dcsr-uict/ufficio-ict
     hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 10000
+    available_bandwidth_mbps: 1000
     core_count: 8
     software: MM
   targets:
