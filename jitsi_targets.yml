@@ -515,3 +515,14 @@
     software: JITSI
   targets:
   - iorestoacasa.zinca.com:8081
+- labels:
+    job: node
+    jitsi_url: https://smaug.lixper.it/
+    jitsi_hosted_by: Lixper SRL
+    jitsi_hosted_by_url: https://www.lixper.it/
+    jitsi_hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: JITSI
+  targets:
+  - smaug.lixper.it:8081
