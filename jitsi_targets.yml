@@ -104,7 +104,7 @@
     jitsi_hosted_by_url: https://www.garr.it/
     jitsi_hosted_by_kind: INSTITUTION
     available_bandwidth_mbps: 40000
-    core_count: 8
+    core_count: 32
     software: JITSI
   targets:
   - open.meet.garr.it:8081
