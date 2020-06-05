@@ -16,7 +16,7 @@
     hosted_by_url: https://www.garr.it
     hosted_by_kind: INSTITUTION
     available_bandwidth_mbps: 40000
-    core_count: 8
+    core_count: 32
     software: MM
   targets:
   - edu.meet.garr.it:9550
