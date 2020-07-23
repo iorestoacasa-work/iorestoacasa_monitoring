@@ -9,6 +9,7 @@ services:
         - ./mm_static_targets.yml:/etc/prometheus/mm_static_targets.yml
         - prometheus_data:/prometheus
     command:
+        - '--storage.tsdb.retention.time=5y'
         - '--config.file=/etc/prometheus/prometheus.yml'
     restart: unless-stopped
     ports:
