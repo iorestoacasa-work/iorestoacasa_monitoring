@@ -108,17 +108,17 @@
     software: JITSI
   targets:
   - jitsi.metsistemi.com:8081
-- labels:
-    job: node
-    jitsi_url: https://meet2.galliera.it
-    jitsi_hosted_by: Ospedale Galliera - Genova
-    jitsi_hosted_by_url:  https://www.galliera.it/
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 20
-    software: JITSI
-  targets:
-  - meet2.galliera.it
+# - labels:
+#     job: node
+#     jitsi_url: https://meet2.galliera.it
+#     jitsi_hosted_by: Ospedale Galliera - Genova
+#     jitsi_hosted_by_url:  https://www.galliera.it/
+#     jitsi_hosted_by_kind: COMPANY
+#     available_bandwidth_mbps: 1000
+#     core_count: 20
+#     software: JITSI
+#   targets:
+#   - meet2.galliera.it
 - labels:
     job: node
     jitsi_url: https://meet.arcolink.it

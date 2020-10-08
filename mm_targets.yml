@@ -95,16 +95,16 @@
     software: MM
   targets:
   - lepida1.iorestoacasa.work:8081
-- labels:
-    url: https://meet.esperto-informatico.it/
-    hosted_by: Bruno Aleci
-    hosted_by_url: https://esperto-informatico.it/
-    hosted_by_kind: PERSON
-    available_bandwidth_mbps: 200
-    core_count: 4
-    software: MM
-  targets:
-  - meet.esperto-informatico.it:8081
+# - labels:
+#     url: https://meet.esperto-informatico.it/
+#     hosted_by: Bruno Aleci
+#     hosted_by_url: https://esperto-informatico.it/
+#     hosted_by_kind: PERSON
+#     available_bandwidth_mbps: 200
+#     core_count: 4
+#     software: MM
+#   targets:
+#   - meet.esperto-informatico.it:8081
 - labels:
     url: https://iorestoacasa02.cineca.it/
     hosted_by: Cineca
