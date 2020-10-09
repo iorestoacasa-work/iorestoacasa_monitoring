@@ -274,17 +274,6 @@
   targets:
   - iorestoacasa01.cineca.it:8081
 - labels:
-    jobs: node
-    jitsi_url: https://jitsi.serversolutions.cloud/
-    jitsi_hosted_by: Davide Cruccolini
-    jitsi_hosted_by_url: https://jitsi.serversolutions.cloud/
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 4
-    software: JITSI
-  targets:
-  - jitsi.serversolutions.cloud:8081
-- labels:
     job: node
     jitsi_url: https://iorestoacasa.zinca.com
     jitsi_hosted_by: Zinca srl
