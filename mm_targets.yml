@@ -1,5 +1,16 @@
 - labels:
     job: node
+    url: https://befair1.iorestoacasa.work
+    hosted_by: beFair
+    hosted_by_url: https://befair.it
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 8
+    software: MM
+  targets:
+  - befair1.iorestoacasa.work:8081
+- labels:
+    job: node
     url: https://edu.meet.garr.it
     hosted_by: GARR
     hosted_by_url: https://www.garr.it
