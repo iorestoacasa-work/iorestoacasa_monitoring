@@ -295,3 +295,14 @@
     software: JITSI
   targets:
   - smaug.lixper.it:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.topstream.it/
+    jitsi_hosted_by: Top Stream - Davide Cruccolini
+    jitsi_hosted_by_url: https://www.topstream.it/
+    jitsi_hosted_by_kind: PERSON
+    available_bandwidth_mbps: 10O0
+    core_count: 4
+    software: JITSI
+  targets:
+  - jitsi.topstream.it:8081
