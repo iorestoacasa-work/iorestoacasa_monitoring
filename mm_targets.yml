@@ -146,3 +146,13 @@
     software: MM
   targets:
     - mm.topstream.it:8081
+- labels:
+    url: https://meet.loclix.it/
+    hosted_by: LocLix di Sciacca Matteo Filiberto
+    hosted_by_url: https://loclix.it/
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: MM
+  targets:
+    - meet.loclix.io:8081
