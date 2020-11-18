@@ -156,3 +156,13 @@
     software: MM
   targets:
     - meet.loclix.io:8081
+- labels:
+    url: https://galadriel.myfox.ovh/
+    hosted_by: myfox
+    hosted_by_url: https://www.myfox.org/
+    hosted_by_kind: PERSON
+    available_bandwidth_mbps: 1000
+    core_count: 4
+    software: MM
+  targets:
+    - meet.loclix.io:8081
