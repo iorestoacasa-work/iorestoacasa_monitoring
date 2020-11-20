@@ -295,3 +295,14 @@
     software: JITSI
   targets:
   - jitsi.topstream.it:8081
+- labels:
+    job: node
+    jitsi_url: https://jitsi.pilonicomaterno.it
+    jitsi_hosted_by: Ass. Paese di Pilonico Materno
+    jitsi_hosted_by_url: https://www.pilonicomaterno.it
+    jitsi_hosted_by_kind: ASSOCIATION
+    available_bandwidth_mbps: 100
+    core_count: 2
+    software: JITSI
+  targets:
+  - jitsi.pilonicomaterno.it:8081
