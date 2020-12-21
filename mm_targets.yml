@@ -155,7 +155,7 @@
     core_count: 8
     software: MM
   targets:
-    - meet.loclix.io:8081
+    - meet.loclix.it:8081
 - labels:
     url: https://galadriel.myfox.ovh/
     hosted_by: myfox
