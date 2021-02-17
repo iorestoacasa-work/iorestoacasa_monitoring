@@ -166,3 +166,13 @@
     software: MM
   targets:
     - meet.loclix.io:8081
+- labels:
+    url: https://edumeet.na.icb.cnr.it
+    hosted_by: Consiglio Nazionale delle Ricerche - ICB
+    hosted_by_url: https://www.icb.cnr.it
+    hosted_by_kind: INSTITUTION
+    available_bandwidth_mbps: 1000
+    core_count: 8
+    software: MM
+  targets:
+    - edumeet.na.icb.cnr.it:8081
