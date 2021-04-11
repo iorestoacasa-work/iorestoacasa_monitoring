@@ -44,17 +44,6 @@
   - jitsi.ospf.it:8081
 - labels:
     job: node
-    jitsi_url: https://iorestoacasa.imaa.cnr.it/
-    jitsi_hosted_by: Consiglio Nazionale delle Ricerche - IMAA
-    jitsi_hosted_by_url: https://www.imaa.cnr.it
-    jitsi_hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 1000
-    core_count: 8
-    software: JITSI
-  targets:
-  - iorestoacasa.imaa.cnr.it:8081
-- labels:
-    job: node
     jitsi_url: https://jitsi.cedrc.cnr.it/
     jitsi_hosted_by: Consiglio Nazionale delle Ricerche - Ufficio ICT-SAC
     jitsi_hosted_by_url: https://www.cnr.it/it/struttura/dcsr-uict/ufficio-ict
@@ -77,17 +66,6 @@
   - meet.a80.it:48081
 - labels:
     job: node
-    jitsi_url: https://vigo.4sigma.it
-    jitsi_hosted_by: 4Sigma
-    jitsi_hosted_by_url: https://4sigma.it/
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 8
-    software: JITSI
-  targets:
-  - vigo.4sigma.it:8081
-- labels:
-    job: node
     jitsi_url: https://jitsi.metsistemi.com
     jitsi_hosted_by: MET Sistemi
     jitsi_hosted_by_url: https://www.metsistemi.com
@@ -97,17 +75,6 @@
     software: JITSI
   targets:
   - jitsi.metsistemi.com:8081
-# - labels:
-#     job: node
-#     jitsi_url: https://meet2.galliera.it
-#     jitsi_hosted_by: Ospedale Galliera - Genova
-#     jitsi_hosted_by_url:  https://www.galliera.it/
-#     jitsi_hosted_by_kind: COMPANY
-#     available_bandwidth_mbps: 1000
-#     core_count: 20
-#     software: JITSI
-#   targets:
-#   - meet2.galliera.it
 - labels:
     job: node
     jitsi_url: https://meet.arcolink.it
@@ -119,17 +86,6 @@
     software: JITSI
   targets:
   - meet.arcolink.it:8081
-- labels:
-    job: node
-    jitsi_url: https://meet.digitalcombel.it/
-    jitsi_hosted_by: Consorzio Digital Combel
-    jitsi_hosted_by_url: https://www.digitalcombel.it/
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 200
-    core_count: 4
-    software: JITSI
-  targets:
-  - meet.digitalcombel.it:8081
 - labels:
     job: node
     jitsi_url: https://jitsi.area.fi.cnr.it
@@ -174,28 +130,6 @@
     software: JITSI
   targets:
   - tophost.iorestoacasa.work:8081
-- labels:
-    job: node
-    jitsi_url: https://iorestoacasa.crs4.it
-    jitsi_hosted_by: CRS4
-    jitsi_hosted_by_url: http://www.crs4.it
-    jitsi_hosted_by_kind: INSTITUTION
-    available_bandwidth_mbps: 1000
-    core_count: 4
-    software: JITSI
-  targets:
-  - iorestoacasa.crs4.it:8081
-- labels:
-    job: node
-    jitsi_url: https://meet.simcaa.org
-    jitsi_hosted_by: OpenLab Asti
-    jitsi_hosted_by_url: www.openlabasti.it
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 10000
-    core_count: 4
-    software: JITSI
-  targets:
-  - 3.127.186.36:9258
 - labels:
     job: node
     jitsi_url: https://jitsi.netsons.net
@@ -264,17 +198,6 @@
   - iorestoacasa01.cineca.it:8081
 - labels:
     job: node
-    jitsi_url: https://iorestoacasa.zinca.com
-    jitsi_hosted_by: Zinca srl
-    jitsi_hosted_by_url: https://zinca.com
-    jitsi_hosted_by_kind: COMPANY
-    available_bandwidth_mbps: 1000
-    core_count: 12
-    software: JITSI
-  targets:
-  - iorestoacasa.zinca.com:8081
-- labels:
-    job: node
     jitsi_url: https://smaug.lixper.it/
     jitsi_hosted_by: Lixper SRL
     jitsi_hosted_by_url: https://www.lixper.it/
@@ -284,25 +207,3 @@
     software: JITSI
   targets:
   - smaug.lixper.it:8081
-- labels:
-    job: node
-    jitsi_url: https://jitsi.topstream.it/
-    jitsi_hosted_by: Top Stream - Davide Cruccolini
-    jitsi_hosted_by_url: https://www.topstream.it/
-    jitsi_hosted_by_kind: PERSON
-    available_bandwidth_mbps: 1000
-    core_count: 4
-    software: JITSI
-  targets:
-  - jitsi.topstream.it:8081
-- labels:
-    job: node
-    jitsi_url: https://jitsi.pilonicomaterno.it
-    jitsi_hosted_by: Ass. Paese di Pilonico Materno
-    jitsi_hosted_by_url: https://www.pilonicomaterno.it
-    jitsi_hosted_by_kind: ASSOCIATION
-    available_bandwidth_mbps: 100
-    core_count: 2
-    software: JITSI
-  targets:
-  - jitsi.pilonicomaterno.it:8081
