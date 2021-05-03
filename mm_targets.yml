@@ -75,17 +75,17 @@
     software: MM
   targets:
   - edumeeting.area.fi.cnr.it:8081
-  # - labels:
-  #     job: node
-  #     url: https://edu.colman.it
-  #     hosted_by: Marco Manenti
-  #     hosted_by_url: https://www.colman.it
-  #     hosted_by_kind: COMPANY
-  #     available_bandwidth_mbps: 500
-  #     core_count: 8
-  #     software: MM
-  #   targets:
-  #   - edu.colman.it:8081
+- labels:
+    job: node
+    url: https://edu.colman.it
+    hosted_by: Marco Manenti
+    hosted_by_url: https://www.colman.it
+    hosted_by_kind: COMPANY
+    available_bandwidth_mbps: 500
+    core_count: 8
+    software: MM
+  targets:
+  - edu.colman.it:8081
 - labels:
     url: https://lepida1.iorestoacasa.work
     hosted_by: Lepida
